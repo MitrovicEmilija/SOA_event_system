@@ -1,6 +1,6 @@
 # SOA Projekt - Sistem za upravljanje dogodkov
 
-## ❮🗨️ Opis projekta
+## 🗨️ Opis projekta
 
 Sistem za upravljanje dogodkov omogoča organizatorjem dogodkov, da učinkovito načrtujejo, upravljajo in promovirajo svoje dogodke, hkrati pa omogoča uporabnikom preprosto iskanje, rezervacijo in nakup vstopnic za dogodke.
 
