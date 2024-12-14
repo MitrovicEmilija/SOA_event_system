@@ -73,10 +73,10 @@ Projekt temelji na **mikrostoritveni arhitekturi**, kjer vsaka mikrostoritev opr
           |     API Gateway (Express.js)         |
           +---------+---------+---------+--------+
                     |         |         |
-     +--------------+   +-----+-----+   +--------------+
-     |  User Service|   | Event Serv.|   | Reservation |
-     | (Avtentikacija, | (Upravljanje|   | Service     |
-     | Profiliranje)    |  dogodki)   |   | (Rezervacije)|
+     +--------------+   +-----+-------+   +--------------+
+     | User Service |   | Event Service|   | Reservation |
+     | (Avtentikacija,  | (Upravljanje|     |   Service   |
+     | Profil)    |        dogodkov)   |   |(Rezervacije)|
      +----------------+  +-----------+   +--------------+
                     |         |
                     v         v
