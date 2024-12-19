@@ -45,11 +45,10 @@ Projekt temelji na **mikrostoritveni arhitekturi**, kjer vsaka mikrostoritev opr
   - `POST /reservations` – Rezervacija kart za dogodek.
   - `GET /reservations/:userId` – Pridobivanje rezervacij uporabnika.
 
-#### **4. Notification Service (Servis za obvestila)**
-- Pošiljanje obvestil uporabnikom o rezervacijah ali spremembah dogodkov.
-- Integracija s storitvami za pošiljanje e-pošte ali SMS.
+#### **4. Search Service (Iskalnik dogodkov)**
+- Uporabniški vmesnik omogoča vnos lokacije in prikaz dogodkov.
 - **Primer API-jev:**
-  - `POST /notifications` – Pošiljanje obvestila.
+  - `GET /search` – iskanje dogodkov.
 
 #### **5. Analytics Service (Servis za statistike)**
 - Generiranje statističnih poročil o dogodkih (npr. število rezervacij, prodane karte).
@@ -81,8 +80,8 @@ Projekt temelji na **mikrostoritveni arhitekturi**, kjer vsaka mikrostoritev opr
                     |         |
                     v         v
            +-----------------------------+
-           |      Notification Service   |
-           | (Obvestila za uporabnike)   |
+           |      Search Service   |
+           | (Iskalnik za uporabnike)   |
            +-----------------------------+
                     |
                     v
@@ -100,7 +99,7 @@ Projekt temelji na **mikrostoritveni arhitekturi**, kjer vsaka mikrostoritev opr
 |-------------------------|------------------------------------------------|
 | **Emilija Mitrović** (Frontend) | Razvoj frontenda (React/Vue) + Event Service. |
 | **Maj Miklav** (Backend)     | Razvoj User Service in Reservation Service.   |
-| **Nina Horvat** (Backend)    | Razvoj Notification Service in Analytics Service. |
+| **Nina Horvat** (Backend)    | Razvoj Search Service in Analytics Service. |
 | **Skupinsko delo**           | Integracija mikroservisov, testiranje in dokumentacija. |
 
 ---
