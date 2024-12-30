@@ -97,8 +97,8 @@ Projekt temelji na **mikrostoritveni arhitekturi**, kjer vsaka mikrostoritev opr
 
 | **Član skupine**            | **Naloge**                                      |
 |-------------------------|------------------------------------------------|
-| **Emilija Mitrović** (Frontend) | Razvoj frontenda (React/Vue) + Event Service. |
-| **Maj Miklav** (Backend)     | Razvoj User Service in Reservation Service.   |
+| **Emilija Mitrović** (Frontend) | Razvoj frontenda (React/Vue) + User Service. |
+| **Maj Miklav** (Backend)     | Razvoj Event Service in Reservation Service.   |
 | **Nina Horvat** (Backend)    | Razvoj Search Service in Analytics Service. |
 | **Skupinsko delo**           | Integracija mikroservisov, testiranje in dokumentacija. |
 
